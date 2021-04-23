@@ -169,7 +169,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between; }
+  justify-content: space-around; }
 
 .footer-nav1 {
   border: 2px red solid;
@@ -230,5 +230,35 @@
   height: 24px;
   background-image: url(/assets/images/ico-arrow.svg);
   background-size: contain; }
+
+@-webkit-keyframes latidos {
+  from {
+    transform: none; }
+  50% {
+    transform: scale(1.4); }
+  to {
+    transform: none; } }
+
+@keyframes latidos {
+  from {
+    transform: none; }
+  50% {
+    transform: scale(1.4); }
+  to {
+    transform: none; } }
+
+.love {
+  display: inline-block;
+  font-size: 10px;
+  text-shadow: 0 0 10px #222,1px 1px  0 #450505;
+  color: #f26002;
+  -webkit-animation: latidos .5s infinite;
+  animation: latidos .5s infinite;
+  transform-origin: center; }
+
+body {
+  text-align: center;
+  background: #333;
+  height: 230px; }
 
 /*# sourceMappingURL=styles.css.map */
