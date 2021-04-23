@@ -1,5 +1,5 @@
 .footer{
-    background-color: #304268;
+    background-color:$colordarkblue;
     width: 100vw;
     height: 100vh;
 }
@@ -112,7 +112,7 @@
 	display: inline-block;
 	font-size: 10px;
 	text-shadow: 0 0 10px #222,1px 1px  0 #450505;
-    color:#f26002;
+    color:$colororange;
 	animation: latidos .5s infinite;
 	transform-origin: center;
 }
