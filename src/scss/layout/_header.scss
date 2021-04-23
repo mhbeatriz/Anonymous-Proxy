@@ -24,6 +24,7 @@
     /*border: red solid 2px;*/
     text-align: center;
     font-size: 42px;
+    font-family: $font-titles;
     /*margin-top: 284px;
     margin-bottom: 174px;
     margin-left: 15px;
@@ -31,6 +32,8 @@
 }
 .header-subtitle{
     text-align: center;
+    font-size: 16px;
+    font-family: $font-main;
     margin-top: 10px;
     /*border: solid 2px white;*/
     text-transform: lowercase;
