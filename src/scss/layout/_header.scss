@@ -31,7 +31,7 @@
 }
 .header-text {
   color: white;
-  border: solid blue 2px;
+  /*border: solid blue 2px;*/
   margin-top: 284px;
 }
 
@@ -39,7 +39,7 @@
   text-transform: uppercase;
   width: 290px;
   height: 110px;
-  border: red solid 2px;
+  /*border: red solid 2px;*/
   text-align: center;
   font-size: 42px;
   font-family: $font-titles;
@@ -49,7 +49,7 @@
   font-size: 16px;
   font-family: $font-main;
   margin-top: 10px;
-  border: solid 2px white;
+  /*border: solid 2px white;*/
   text-transform: lowercase;
 }
 .header-subtitle::first-letter {
@@ -73,6 +73,9 @@
   height: 11.7px;
   background-image: url(/assets/images/ico-scroll-down.svg);
   background-size: contain;
+}
+.button-icon:hover {
+  transform: scale(2);
 }
 
 @media all and (min-width: 768px) {

@@ -13,13 +13,12 @@
   margin: 30px 15px 45px; }
 
 .section1-subtitle {
-  color: lightblue;
+  color: #8ccbea;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   text-transform: capitalize;
-  border: black solid 2px;
+  /*border: black solid 2px;*/
   height: 30px;
-  width: 90px;
   line-height: 2.14; }
 
 .section1-title {
@@ -27,14 +26,14 @@
   font-size: 24px;
   font-family: "Roboto Slab", serif;
   text-align: left;
-  border: solid 2px black;
+  /*border: solid 2px black;*/
   width: 290px;
   height: 60px; }
 
 .section1-text {
   width: 290px;
   height: 120px;
-  border: black solid 2px;
+  /*border: black solid 2px;*/
   font-size: 18px;
   font-family: "Roboto", sans-serif;
   text-align: left;
@@ -55,29 +54,41 @@
   font-family: "Roboto", sans-serif;
   text-align: center;
   text-transform: capitalize;
-  line-height: 2; }
+  line-height: 2;
+  text-decoration: none; }
+
+.go:hover {
+  color: #304268; }
 
 .section2 {
   background-color: #eff9ff;
-  width: 100%;
+  width: 100vw;
   height: 624px;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 30px, 65px, 65px, 65px, 45px; }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around; }
 
 .section2-title {
-  border: solid 2px black;
-  text-align: center;
-  font-family: "Roboto Slab", serif; }
+  font-family: "Roboto Slab", serif;
+  font-size: 24px;
+  text-transform: capitalize; }
 
-/*.section2-article {
-    border: solid 2px black;
-    text-align: center;
-    font-size: 18px;
-    padding: 45px;
-    margin-right: 70px;
-    margin-left: 70px;
-}*/
+.section2-article {
+  text-align: center;
+  font-size: 18px;
+  text-transform: lowercase; }
+
+.article-title::first-letter {
+  text-transform: uppercase; }
+
+.article-text {
+  height: 63px;
+  width: 180px; }
+
+.article-text::first-letter {
+  text-transform: uppercase; }
+
 .section2-button {
   background-color: #f26002;
   border-radius: 30px;
@@ -85,12 +96,21 @@
   height: 45px;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  margin-bottom: 60px; }
 
 .button-text {
   color: white;
   text-transform: lowercase;
-  font-size: 20px; }
+  font-size: 20px;
+  text-decoration: none; }
+
+.button-text::first-letter {
+  text-transform: uppercase; }
+
+.button-text:hover {
+  color: #0271bc;
+  font-size: 25px; }
 
 .header {
   height: 100vh;
@@ -125,14 +145,14 @@
 
 .header-text {
   color: white;
-  border: solid blue 2px;
+  /*border: solid blue 2px;*/
   margin-top: 284px; }
 
 .header-title {
   text-transform: uppercase;
   width: 290px;
   height: 110px;
-  border: red solid 2px;
+  /*border: red solid 2px;*/
   text-align: center;
   font-size: 42px;
   font-family: "Roboto Slab", serif; }
@@ -142,7 +162,7 @@
   font-size: 16px;
   font-family: "Roboto", sans-serif;
   margin-top: 10px;
-  border: solid 2px white;
+  /*border: solid 2px white;*/
   text-transform: lowercase; }
 
 .header-subtitle::first-letter {
@@ -166,6 +186,9 @@
   background-image: url(/assets/images/ico-scroll-down.svg);
   background-size: contain; }
 
+.button-icon:hover {
+  transform: scale(2); }
+
 @media all and (min-width: 768px) {
   .header-title {
     font-size: 80px;
@@ -176,21 +199,6 @@
   width: 100vw;
   height: 100vh; }
 
-/*.footer-button-top {
-    width: 50px;
-    height: 50px;
-    background-color: white;
-    border-radius: 30px;
-    margin-bottom: 53px;
-    margin-top:45px;  
-    transform: translate(0, -225%); 
-}
-
-.button-icon-top {
-    width: 50%;
-    height: 50%;
-    transform: translate(50%,50%);
-}*/
 .footer-container {
   height: 100%;
   width: 100%;
@@ -201,7 +209,7 @@
   font-family: "Roboto", sans-serif; }
 
 .footer-nav1 {
-  border: 2px red solid;
+  /*border: 2px red solid;*/
   margin-top: 60px;
   text-align: center; }
 
@@ -213,10 +221,14 @@
   color: white;
   text-decoration: none;
   font-size: 16px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  line-height: 1.88; }
+
+.footer-nav-link:hover {
+  color: #f26002; }
 
 .footer-nav2 {
-  border: 2px red solid;
+  /*border: 2px red solid;*/
   width: 147px;
   height: 90px;
   text-align: center; }
@@ -226,11 +238,14 @@
   line-height: 1.88; }
 
 .copy {
-  border: 2px red solid;
+  /*border: 2px red solid;*/
   color: white;
   font-size: 14px;
   text-align: center;
-  margin-bottom: 45px; }
+  margin-bottom: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
 
 .copy-icon {
   width: 77px;
@@ -259,6 +274,9 @@
   height: 24px;
   background-image: url(/assets/images/ico-arrow.svg);
   background-size: contain; }
+
+.footer-button-top:hover {
+  transform: scale(2); }
 
 @-webkit-keyframes latidos {
   from {

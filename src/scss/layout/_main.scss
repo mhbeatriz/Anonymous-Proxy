@@ -1,101 +1,114 @@
 .section1 {
-    width: 100vw;
-    height: 376px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    background-color: white;
-    margin: 30px 15px 45px;
-    
-    
+  width: 100vw;
+  height: 376px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: $colorwhite;
+  margin: 30px 15px 45px;
 }
 .section1-subtitle {
-    color: lightblue;
-    font-size: 14px;
-    font-family: $font-main;
-    text-transform: capitalize;
-    border: black solid 2px;
-    height: 30px;
-    width: 90px;
-    line-height: 2.14;
+  color: $colorlightblue;
+  font-size: 14px;
+  font-family: $font-main;
+  text-transform: capitalize;
+  /*border: black solid 2px;*/
+  height: 30px;
+  line-height: 2.14;
 }
 .section1-title {
-    text-transform: capitalize;
-    font-size: 24px;
-    font-family: $font-titles;
-    text-align: left;
-    border: solid 2px black;
-    width: 290px;
-    height: 60px;
+  text-transform: capitalize;
+  font-size: 24px;
+  font-family: $font-titles;
+  text-align: left;
+  /*border: solid 2px black;*/
+  width: 290px;
+  height: 60px;
 }
 .section1-text {
-    width: 290px;
-    height: 120px;
-    border: black solid 2px;
-    font-size: 18px;
-    font-family: $font-main;
-    text-align: left;
-    line-height: 1.6;
-    color: #4a4a4a;
+  width: 290px;
+  height: 120px;
+  /*border: black solid 2px;*/
+  font-size: 18px;
+  font-family: $font-main;
+  text-align: left;
+  line-height: 1.6;
+  color: #4a4a4a;
 }
 
 .button-go {
-    border: solid 2px #f26002;
-    width: 76px;
-    height: 45px;
-    border-radius: 30px;
-    padding: 0 25px 0 26px;
-    // margin-bottom: 45px;
-    // margin-top: 30px;
-
-    
+  border: solid 2px $colororange;
+  width: 76px;
+  height: 45px;
+  border-radius: 30px;
+  padding: 0 25px 0 26px;
+  // margin-bottom: 45px;
+  // margin-top: 30px;
 }
 .go {
-    color: #f26002;
-    text-transform: lowercase;
-    font-size: 20px;
-    font-family: $font-main;
-    text-align: center;
-    text-transform: capitalize;
-    line-height:2;
-   
+  color: $colororange;
+  text-transform: lowercase;
+  font-size: 20px;
+  font-family: $font-main;
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 2;
+  text-decoration: none;
+}
+.go:hover {
+  color: $colordarkblue;
 }
 
 .section2 {
-    background-color:$coloriceblue;
-    width: 100%;
-    height: 624px;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 30px, 65px, 65px, 65px, 45px;
+  background-color: $coloriceblue;
+  width: 100vw;
+  height: 624px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
-.section2-title{
-    border: solid 2px black;
-    text-align: center;
-    font-family: $font-titles;
-
+.section2-title {
+  font-family: $font-titles;
+  font-size: 24px;
+  text-transform: capitalize;
 }
-/*.section2-article {
-    border: solid 2px black;
-    text-align: center;
-    font-size: 18px;
-    padding: 45px;
-    margin-right: 70px;
-    margin-left: 70px;
-}*/
 
-
+.section2-article {
+  text-align: center;
+  font-size: 18px;
+  text-transform: lowercase;
+}
+.article-title::first-letter {
+  text-transform: uppercase;
+}
+.article-text {
+  height: 63px;
+  width: 180px;
+}
+.article-text::first-letter {
+  text-transform: uppercase;
+}
 .section2-button {
-    background-color:$colororange;
-    border-radius: 30px;
-    width: 184px;
-    height: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: $colororange;
+  border-radius: 30px;
+  width: 184px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
 }
 .button-text {
-    color: white;
-    text-transform:lowercase;
-    font-size: 20px;
+  color: $colorwhite;
+  text-transform: lowercase;
+  font-size: 20px;
+  text-decoration: none;
+}
+.button-text::first-letter {
+  text-transform: uppercase;
+}
+.button-text:hover {
+  color: $colorblue;
+  font-size: 25px;
 }

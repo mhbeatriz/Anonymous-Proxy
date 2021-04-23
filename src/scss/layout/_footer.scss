@@ -4,22 +4,6 @@
   height: 100vh;
 }
 
-/*.footer-button-top {
-    width: 50px;
-    height: 50px;
-    background-color: white;
-    border-radius: 30px;
-    margin-bottom: 53px;
-    margin-top:45px;  
-    transform: translate(0, -225%); 
-}
-
-.button-icon-top {
-    width: 50%;
-    height: 50%;
-    transform: translate(50%,50%);
-}*/
-
 .footer-container {
   height: 100%;
   width: 100%;
@@ -30,7 +14,7 @@
   font-family: $font-main;
 }
 .footer-nav1 {
-  border: 2px red solid;
+  /*border: 2px red solid;*/
   margin-top: 60px;
   text-align: center;
 }
@@ -45,10 +29,14 @@
   text-decoration: none;
   font-size: 16px;
   text-transform: uppercase;
+  line-height: 1.88;
+}
+.footer-nav-link:hover {
+  color: $colororange;
 }
 
 .footer-nav2 {
-  border: 2px red solid;
+  /*border: 2px red solid;*/
   width: 147px;
   height: 90px;
   text-align: center;
@@ -58,11 +46,14 @@
   line-height: 1.88;
 }
 .copy {
-  border: 2px red solid;
+  /*border: 2px red solid;*/
   color: $colorwhite;
   font-size: 14px;
   text-align: center;
   margin-bottom: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .copy-icon {
   width: 77px;
@@ -94,6 +85,9 @@
   height: 24px;
   background-image: url(/assets/images/ico-arrow.svg);
   background-size: contain;
+}
+.footer-button-top:hover {
+  transform: scale(2);
 }
 
 @keyframes latidos {
