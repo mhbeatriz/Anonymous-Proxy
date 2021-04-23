@@ -1,0 +1,28 @@
+.footer {
+    background-color: #304268;
+    width: 100vw;
+    height: 465px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navigation1 {
+   border: red solid 2px;
+   list-style-type: none;
+   width: 73px;
+   height: 150px;
+}
+
+}
+.navigation2 {
+    border: red solid 2px;
+    list-style-type: none;
+    
+   
+}
+.copy {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
