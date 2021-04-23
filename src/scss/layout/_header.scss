@@ -1,6 +1,6 @@
 .header {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background-image: url(/assets/images/cover.jpg);
     display: flex;
     flex-direction: column;
@@ -12,14 +12,14 @@
     color: white;
     /*height: 50vh;
     width: 50vw;*/
-    border: solid blue 2px;
+    /*border: solid blue 2px;*/
 }
 
 .header-title {
     text-transform:uppercase;
     width: 290px;
     height: 110px;
-    border: red solid 2px;
+    /*border: red solid 2px;*/
     text-align: center;
     font-size: 42px;
     /*margin-top: 284px;
@@ -28,11 +28,15 @@
     margin-right: 15px;*/    
 }
 .header-subtitle{
-    text-transform: initial;
     text-align: center;
     margin-top: 10px;
-    border: solid 2px white;
+    /*border: solid 2px white;*/
+    text-transform: lowercase;
 }
+.header-subtitle::first-letter{
+    text-transform: uppercase;
+}
+
 .header-button {
     width: 50px;
     height: 50px;
@@ -48,6 +52,21 @@
     transform: translate(50%,50%);
 }
 
-.header-menu {
- background-color: gray;
+.header-menu{
+    background-color:#0271bc;
+    width: 44px;
+    height: 44px;
+    position: fixed;
+   top: 0;
+    left: 0;
+    
 }
+.header-menu-icon {
+
+width: 16px;
+ height: 14px;
+ background-image: url(/assets/images/ico-menu.svg);
+ background-size: contain;
+ background-color: red;
+}
+

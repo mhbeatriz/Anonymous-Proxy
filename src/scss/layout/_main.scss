@@ -12,6 +12,7 @@
 .section1-subtitle {
     color: lightblue;
     font-size: 14px;
+    text-transform: capitalize;
 }
 .section1-title {
     text-transform: capitalize;
@@ -34,12 +35,16 @@
     height: 45px;
     border-radius: 30px;
     
+    
 }
 .go {
     color: #f26002;
     text-transform: lowercase;
     font-size: 20px;
     text-align: center;
+    text-transform: capitalize;
+    line-height:2;
+   
 }
 
 .section2 {
