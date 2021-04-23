@@ -94,7 +94,7 @@
 
 .header {
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   background-image: url(/assets/images/cover.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -102,49 +102,6 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: center; }
-
-.header-text {
-  color: white;
-  /*height: 50vh;
-    width: 50vw;*/
-  /*border: solid blue 2px;*/ }
-
-.header-title {
-  text-transform: uppercase;
-  width: 290px;
-  height: 110px;
-  /*border: red solid 2px;*/
-  text-align: center;
-  font-size: 42px;
-  font-family: "Roboto Slab", serif;
-  /*margin-top: 284px;
-    margin-bottom: 174px;
-    margin-left: 15px;
-    margin-right: 15px;*/ }
-
-.header-subtitle {
-  text-align: center;
-  font-size: 16px;
-  font-family: "Roboto", sans-serif;
-  margin-top: 10px;
-  /*border: solid 2px white;*/
-  text-transform: lowercase; }
-
-.header-subtitle::first-letter {
-  text-transform: uppercase; }
-
-.header-button {
-  width: 50px;
-  height: 50px;
-  background-color: white;
-  border-radius: 30px;
-  margin-bottom: 53px;
-  margin-top: 45px; }
-
-.button-icon {
-  width: 50%;
-  height: 50%;
-  transform: translate(50%, 50%); }
 
 .header-menu {
   background-color: #0271bc;
@@ -162,6 +119,57 @@
   height: 14px;
   background-image: url(/assets/images/ico-menu.svg);
   background-size: contain; }
+
+.header-menu-icon:hover {
+  transform: scale(2); }
+
+.header-text {
+  color: white;
+  border: solid blue 2px;
+  margin-top: 284px; }
+
+.header-title {
+  text-transform: uppercase;
+  width: 290px;
+  height: 110px;
+  border: red solid 2px;
+  text-align: center;
+  font-size: 42px;
+  font-family: "Roboto Slab", serif; }
+
+.header-subtitle {
+  text-align: center;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 10px;
+  border: solid 2px white;
+  text-transform: lowercase; }
+
+.header-subtitle::first-letter {
+  text-transform: uppercase; }
+
+.header-button {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 30px;
+  margin-bottom: 45px;
+  margin-top: 53px;
+  box-shadow: 2px 2px 5px #4a4a4a;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.button-icon {
+  width: 20px;
+  height: 11.7px;
+  background-image: url(/assets/images/ico-scroll-down.svg);
+  background-size: contain; }
+
+@media all and (min-width: 768px) {
+  .header-title {
+    font-size: 80px;
+    text-align: center; } }
 
 .footer {
   background-color: #304268;
@@ -234,7 +242,7 @@
 
 .footer-button {
   background-color: white;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 5px #4a4a4a;
   width: 50px;
   height: 50px;
   border-radius: 30px;
@@ -271,10 +279,10 @@
 .love {
   display: inline-block;
   font-size: 10px;
-  text-shadow: 0 0 10px #222,1px 1px  0 #450505;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 1px 1px 0 #4a4a4a;
   color: #f26002;
-  -webkit-animation: latidos .5s infinite;
-  animation: latidos .5s infinite;
+  -webkit-animation: latidos 0.5s infinite;
+  animation: latidos 0.5s infinite;
   transform-origin: center; }
 
 /*# sourceMappingURL=styles.css.map */
