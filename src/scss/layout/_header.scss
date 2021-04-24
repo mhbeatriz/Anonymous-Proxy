@@ -79,8 +79,33 @@
 }
 
 @media all and (min-width: 768px) {
+  .header-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .header-title {
     font-size: 80px;
     text-align: center;
+    width: 690px;
+    height: 212px;
+  }
+  .header-subtitle {
+    font-size: 24px;
+    width: 360px;
+    height: 32px;
+  }
+}
+@media all and (min-width: 1200px) {
+  .header-title {
+    font-size: 100px;
+    text-align: center;
+    width: 730px;
+    height: 264px;
+  }
+  .header-subtitle {
+    font-size: 24px;
+    width: 730px;
+    height: 32px;
   }
 }
