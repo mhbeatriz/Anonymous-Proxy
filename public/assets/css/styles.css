@@ -367,15 +367,6 @@
   justify-content: center;
   align-items: center; }
 
-.footer-button-top {
-  width: 20.6px;
-  height: 24px;
-  background-image: url(/assets/images/ico-arrow.svg);
-  background-size: contain; }
-
-.footer-button-top:hover {
-  transform: scale(2); }
-
 @-webkit-keyframes latidos {
   from {
     transform: none; }
@@ -383,6 +374,27 @@
     transform: scale(1.4); }
   to {
     transform: none; } }
+
+@keyframes latidos {
+  from {
+    transform: none; }
+  50% {
+    transform: scale(1.4); }
+  to {
+    transform: none; } }
+
+.footer-button-top {
+  display: block;
+  width: 20.6px;
+  height: 24px;
+  background-image: url(/assets/images/ico-arrow.svg);
+  background-size: contain;
+  -webkit-animation: latidos 0.5s infinite;
+  animation: latidos 0.5s infinite;
+  transform-origin: center; }
+
+.footer-button-top:hover {
+  transform: scale(2); }
 
 @keyframes latidos {
   from {

@@ -81,12 +81,26 @@
   justify-content: center;
   align-items: center;
 }
+@keyframes latidos {
+  from {
+    transform: none;
+  }
+  50% {
+    transform: scale(1.4);
+  }
+  to {
+    transform: none;
+  }
+}
 
 .footer-button-top {
+  display: block;
   width: 20.6px;
   height: 24px;
   background-image: url(/assets/images/ico-arrow.svg);
   background-size: contain;
+  animation: latidos 0.5s infinite;
+  transform-origin: center;
 }
 .footer-button-top:hover {
   transform: scale(2);

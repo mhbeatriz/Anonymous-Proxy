@@ -1,16 +1,42 @@
-![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
+beta.adalab.es/modulo-1-evaluacion-final-mhbeatriz/
 
-# Adalab web starter kit
+# Evaluación de Beatriz Mendoza Huertas
 
-Ahoy! Este es nuestro Starter Kit creado en **node y gulp**. ¿Y qué es un Starter kit? Pues es una **plantilla de proyecto con funcionalidades preinstaladas y preconfiguradas**.
+Esta es mi evaluación final sobre el módulo 1 de Adalab, en la que he puesto a prueba los siguientes conocimientos y aptitudes sobre maquetación con HTML y CSS:
 
-Este Kit incluye un motor de plantillas HTML, el preprocesador SASS y un servidor local y muchas cosas más. El Kit nos ayuda a trabajar más cómodamente, nos automatiza tareas.
+Por un lado;
 
-En el Kit hay 3 tipos de ficheros y carpetas:
+- He usado una estructura ordenada de ficheros y carpetas, los cuales están enlazados con sus respectivos ficheros.
 
-- Los ficheros que están sueltos en la raíz del repositorio, como gulpfile.js, package.json... Son la configuración del proyecto y no necesitamos modificarlos.
-- La carpeta `src/`: son los ficheros de nuestra página web, como HTML, CSS, JS...
-- Las carpetas `public/` y `docs/`, que son generadas automáticamente cuando arrancamos el proyecto. El Kit lee los ficheros que hay dentro de `src/`, los procesa y los genera dentro de `public/` y `docs/`.
+En cuanto a la maquetación con HTML:
+
+- Todo el código está perfectamente indentado.
+- La sintáxis y semántica está estructurada desde mi criterio, de una manera fácil de entender.
+
+Respecto a la maquetación con CSS/Sass:
+
+- Todo el código está perfectamente indentado.
+- He dividio el Sass en varios partials para que me resulte más cómodo y ordenado, y los he enlazado correctamente el fichero principal.
+- He creado otro fichero a parte para las variables, en las cuales he añadido la paleta de colores y la tipografía que se pide para luego enlazarlas comodmente en cada clase.
+
+La estructura de carpetas tiene esta pinta:
+
+src
+├─ api // los ficheros de esta carpeta se copian en public/api/
+| └─ data.json
+├─ images
+├─ scss
+| ├─ components
+| ├─ core
+| ├─ layout
+| └─ pages
+└─ html
+└─ partials
+
+- La mayor parte de la página web esta maquetada con flex.
+- Con el objetivo de dotar de dinamismo a la página y hacerlo más interactiva he añadido algunas transiciones a los botones, los cuales, están enlazados tanto de forma relativa como absoluta.
+
+# Agradecimientos
 
 ## Guía de inicio rápido
 
@@ -44,8 +70,8 @@ Este comando:
 - **Abre una ventana de Chrome y muestra tu página web**, al igual que hace el plugin de VS Code Live Server (Go live).
 - También **observa** todos los ficheros que hay dentro de la carpeta `src/`, para que cada vez que modifiques un fichero **refresca tu página en Chrome**.
 - También **procesa los ficheros** HTML, SASS / CSS y JS y los **genera y guarda en la carpeta `public/`**. Por ejemplo:
-   - Convierte los ficheros SASS en CSS.
-   - Combina los diferentes ficheros de HTML y los agrupa en uno o varios ficheros HTML.
+  - Convierte los ficheros SASS en CSS.
+  - Combina los diferentes ficheros de HTML y los agrupa en uno o varios ficheros HTML.
 
 Después de ejecutar `npm start` ya puedes empezar a editar todos los ficheros que están dentro de la carpeta `src/` y programar cómodamente.
 
@@ -69,6 +95,7 @@ Además, los comandos:
 ```bash
 npm run push-docs
 ```
+
 o
 
 ```bash
@@ -88,37 +115,3 @@ Estas tareas de Gulp producen el siguiente flujo de archivos:
 Nuestro **gulpfile.js** usa el fichero `config.json` de configuración con las rutas de los archivos a generar / observar.
 
 De esta manera separarmos las acciones que están en `gulpfile.js` de la configuración de las acciones que están en `config.json`.
-
-## Estructura de carpetas
-
-La estructura de carpetas tiene esta pinta:
-
-```
-src
- ├─ api // los ficheros de esta carpeta se copian en public/api/
- |  └─ data.json
- ├─ images
- |  └─ logo.jpg
- ├─ js // los ficheros de esta carpeta se concatenan en el fichero main.js y este se guarda en public/main.js
- |  ├─ main.js
- |  └─ events.js
- ├─ scss
- |  ├─ components
- |  ├─ core
- |  ├─ layout
- |  └─ pages
- └─ html
-    └─ partials
-```
-
-> **NOTA:** Los partials de HTML y SASS del proyecto son orientativos. Te recomendamos usar los que quieras, y borrar los que no uses.
-
-## Vídeotutoriales del Starter kit
-
-- [Qué es, trabajar con la versión de desarrollo y rutas relativas](https://www.youtube.com/watch?v=XwvhXvBijos)
-- [Migración de un proyecto, trabajar con la versión de producción y GitHub Pages](https://www.youtube.com/watch?v=qqGClcgt9Uc)
-- [Motor de plantillas](https://www.youtube.com/watch?v=4GwXOJ045Zg)
-
-## Falta algo?
-
-Echas de menos que el kit haga algo en concreto? Pidelo sin problema a través de las issues o si te animas a mejorarlo mándanos un PR :)
