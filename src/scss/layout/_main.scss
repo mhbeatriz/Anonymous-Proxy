@@ -57,6 +57,51 @@
 }
 .go:hover {
   color: $colordarkblue;
+  text-decoration: underline;
+  transition: color ease 2s, text-decoration ease 2s;
+}
+
+.go:active {
+  color: $colordarkblue;
+  text-decoration: underline;
+  transition: color ease 2s, text-decoration ease 2s;
+}
+
+@media all and (min-width: 768px) {
+  .section1 {
+    margin-left: 39px;
+    margin-right: 39px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .section1-subtitle {
+    width: 216;
+  }
+  .section1-title {
+    width: 690px;
+    font-size: 26px;
+  }
+  .section1-text {
+    width: 690px;
+    font-size: 20px;
+  }
+}
+@media all and(min-width:1200px) {
+  .section1-subtitle {
+    font-size: 16px;
+    width: 360px;
+  }
+  .section1-title {
+    width: 730;
+    font-size: 32px;
+  }
+  .section1-text {
+    width: 730;
+    font-size: 20px;
+  }
 }
 
 .section2 {
@@ -111,4 +156,11 @@
 .button-text:hover {
   color: $colorblue;
   font-size: 25px;
+  transition: color ease 2s, font-size 2s;
+}
+
+.button-text:active {
+  color: $colorblue;
+  font-size: 25px;
+  transition: color ease 2s, font-size 2s;
 }
