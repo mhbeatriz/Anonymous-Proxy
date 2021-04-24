@@ -1,35 +1,35 @@
 .section1 {
   width: 100vw;
-  height: 376px;
+  height: 23.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   background-color: $colorwhite;
-  margin: 30px 15px 45px;
+  margin: 1.87rem 0.94rem 2.81rem;
 }
 .section1-subtitle {
   color: $colorlightblue;
-  font-size: 14px;
+  font-size: 0.87rem;
   font-family: $font-main;
   text-transform: capitalize;
   /*border: black solid 2px;*/
-  height: 30px;
+  height: 1.87rem;
   line-height: 2.14;
 }
 .section1-title {
   text-transform: capitalize;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-family: $font-titles;
   text-align: left;
   /*border: solid 2px black;*/
-  width: 290px;
-  height: 60px;
+  width: 18.12rem;
+  height: 3.74rem;
 }
 .section1-text {
-  width: 290px;
-  height: 120px;
+  width: 18.12rem;
+  height: 7.5rem;
   /*border: black solid 2px;*/
-  font-size: 18px;
+  font-size: 1.12rem;
   font-family: $font-main;
   text-align: left;
   line-height: 1.6;
@@ -38,17 +38,17 @@
 
 .button-go {
   border: solid 2px $colororange;
-  width: 76px;
-  height: 45px;
-  border-radius: 30px;
-  padding: 0 25px 0 26px;
+  width: 4.75rem;
+  height: 2.81rem;
+  border-radius: 1.87rem;
+  padding: 0 1.56rem 0 1.62rem;
   // margin-bottom: 45px;
   // margin-top: 30px;
 }
 .go {
   color: $colororange;
   text-transform: lowercase;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: $font-main;
   text-align: center;
   text-transform: capitalize;
@@ -67,47 +67,47 @@
   transition: color ease 2s, text-decoration ease 2s;
 }
 
-@media all and (min-width: 768px) {
+@media all and (min-width: 48rem) {
   .section1 {
-    margin-left: 39px;
-    margin-right: 39px;
-    margin-top: 30px;
-    margin-bottom: 60px;
+    margin-left: 2.44rem;
+    margin-right: 2.44rem;
+    margin-top: 1.87rem;
+    margin-bottom: 3.75rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
   }
   .section1-subtitle {
-    width: 216;
+    width: 13.5rem;
   }
   .section1-title {
-    width: 690px;
-    font-size: 26px;
+    width: 43.12rem;
+    font-size: 1.62rem;
   }
   .section1-text {
-    width: 690px;
-    font-size: 20px;
+    width: 43.12rem;
+    font-size: 1.25rem;
   }
 }
-@media all and(min-width:1200px) {
+@media all and(min-width:75rem) {
   .section1-subtitle {
-    font-size: 16px;
-    width: 360px;
+    font-size: 1rem;
+    width: 22.5rem;
   }
   .section1-title {
-    width: 730;
-    font-size: 32px;
+    width: 45.62rem;
+    font-size: 2rem;
   }
   .section1-text {
-    width: 730;
-    font-size: 20px;
+    width: 45.62rem;
+    font-size: 1.25rem;
   }
 }
 
 .section2 {
   background-color: $coloriceblue;
   width: 100vw;
-  height: 624px;
+  height: 39rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -115,39 +115,39 @@
 }
 .section2-title {
   font-family: $font-titles;
-  font-size: 24px;
+  font-size: 1.5rem;
   text-transform: capitalize;
 }
 
 .section2-article {
   text-align: center;
-  font-size: 18px;
+  font-size: 1.12rem;
   text-transform: lowercase;
 }
 .article-title::first-letter {
   text-transform: uppercase;
 }
 .article-text {
-  height: 63px;
-  width: 180px;
+  height: 3.94rem;
+  width: 11.25rem;
 }
 .article-text::first-letter {
   text-transform: uppercase;
 }
 .section2-button {
   background-color: $colororange;
-  border-radius: 30px;
-  width: 184px;
-  height: 45px;
+  border-radius: 1.87rem;
+  width: 11.5rem;
+  height: 2.81rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 60px;
+  margin-bottom: 3.75rem;
 }
 .button-text {
   color: $colorwhite;
   text-transform: lowercase;
-  font-size: 20px;
+  font-size: 1.25rem;
   text-decoration: none;
 }
 .button-text::first-letter {
@@ -155,12 +155,12 @@
 }
 .button-text:hover {
   color: $colorblue;
-  font-size: 25px;
+  font-size: 1.56rem;
   transition: color ease 2s, font-size 2s;
 }
 
 .button-text:active {
   color: $colorblue;
-  font-size: 25px;
+  font-size: 1.56rem;
   transition: color ease 2s, font-size 2s;
 }

@@ -1,7 +1,7 @@
 .footer {
   background-color: $colordarkblue;
   width: 100vw;
-  height: 465px;
+  height: 20.06rem;
 }
 
 .footer-container {
@@ -27,7 +27,7 @@
 .footer-nav-link {
   color: $colorwhite;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 1rem;
   text-transform: uppercase;
   line-height: 1.88;
 }
@@ -38,8 +38,8 @@
 
 .footer-nav2 {
   // border: 2px red solid;
-  width: 147px;
-  height: 90px;
+  width: 9.19rem;
+  height: 5.62rem;
   text-align: center;
 }
 .footer-nav2-list {
@@ -49,34 +49,34 @@
 .copy {
   /*border: 2px red solid;*/
   color: $colorwhite;
-  font-size: 14px;
+  font-size: 0.87rem;
   text-align: center;
-  margin-bottom: 45px;
+  margin-bottom: 2.81rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .copy-icon {
-  width: 77px;
-  height: 30px;
+  width: 4.81rem;
+  height: 1.87rem;
 }
 
 .copy-text {
-  width: 290px;
-  height: 30px;
+  width: 18.12rem;
+  height: 1.87rem;
 }
 
 .footer-button {
   background-color: $colorwhite;
-  box-shadow: 2px 2px 5px $colordarkgrey;
-  width: 50px;
-  height: 50px;
-  border-radius: 30px;
+  box-shadow: 0.12rem 0.12rem 0.31rem $colordarkgrey;
+  width: 3.12rem;
+  height: 3.12rem;
+  border-radius: 1.87rem;
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  top: -20px;
+  top: -1.25rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -95,8 +95,8 @@
 
 .footer-button-top {
   display: block;
-  width: 20.6px;
-  height: 24px;
+  width: 1.28rem;
+  height: 1.5rem;
   background-image: url(/assets/images/ico-arrow.svg);
   background-size: contain;
   animation: latidos 0.5s infinite;
@@ -120,15 +120,15 @@
 
 .love {
   display: inline-block;
-  font-size: 10px;
-  text-shadow: 0 0 10px $coloricegrey, 1px 1px 0 $colordarkgrey;
+  font-size: 0.62rem;
+  text-shadow: 0 0 0.62rem $coloricegrey, 0.06rem 0.06rem 0 $colordarkgrey;
   color: $colororange;
   animation: latidos 0.5s infinite;
   transform-origin: center;
 }
-@media all and (min-width: 768px) {
+@media all and (min-width: 48rem) {
   .footer {
-    height: 240px;
+    height: 15rem;
   }
   .footer-container {
     display: flex;
