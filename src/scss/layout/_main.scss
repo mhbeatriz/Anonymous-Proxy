@@ -1,28 +1,28 @@
 .section1 {
-  width: 100vw;
+  width: 320px;
   // height: 23.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   background-color: $colorwhite;
-  margin: 1.87rem 0.94rem 2.81rem;
+  // margin: 1.87rem 0.94rem 2.81rem;
+  padding: 30px 15px 45px;
 }
 .section1-subtitle {
   color: $colorlightblue;
   font-size: 0.87rem;
   font-family: $font-main;
   text-transform: capitalize;
-  border: black solid 2px;
+  // border: black solid 2px;
   height: 1.87rem;
   line-height: 2.14;
-  padding: 0;
 }
 .section1-title {
   text-transform: capitalize;
   font-size: 1.5rem;
   font-family: $font-titles;
-  text-align: left;
-  border: solid 2px black;
+  // text-align: left;
+  // border: solid 2px black;
   width: 18.12rem;
   height: 3.74rem;
   padding: 0;
