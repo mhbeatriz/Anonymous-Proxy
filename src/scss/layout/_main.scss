@@ -117,24 +117,27 @@
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   text-align: center;
-  padding-top: 30px;
 }
 
 .section2-title {
   font-size: 24px;
   font-family: $font-titles;
+  margin: auto;
+  text-transform: capitalize;
 }
+
 .reasons-article {
-  height: 93px;
-  width: 180px;
+  // height: 93px;
+  // width: 180px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -10px;
 }
 .reasons-title {
   font-family: $font-titles;
   font-size: 18px;
   text-transform: lowercase;
+  width: 184px;
+  height: 30px;
 }
 .reasons-title::first-letter {
   text-transform: uppercase;
@@ -143,6 +146,9 @@
   font-family: $font-main;
   font-size: 18px;
   text-transform: lowercase;
+  width: 180px;
+  height: 63px;
+  margin-bottom: 45px;
 }
 .reasons-text::first-letter {
   text-transform: uppercase;
