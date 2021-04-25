@@ -1,6 +1,6 @@
 .footer {
   background-color: $colordarkblue;
-  width: 100vw;
+
   /*height: 20.06rem;*/
 }
 
@@ -134,14 +134,16 @@
     // height: 15rem;
   }
   .footer-container {
-    // width: 768px;
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-start;
     justify-content: flex-end;
     // border: solid 2px red;
-    padding-left: 39px;
-    padding-right: 39px;
+    // padding-left: 39px;
+    // padding-right: 39px;
+    width: 630px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .footer-nav2 {
     order: -1;
@@ -161,5 +163,11 @@
   .copy-text {
     width: 210px;
     text-align: left;
+  }
+}
+@media all and(min-width:75rem) {
+  .footer-container {
+    margin-right: 370px;
+    margin-left: 370px;
   }
 }

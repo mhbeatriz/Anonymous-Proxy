@@ -283,7 +283,6 @@
 
 .footer {
   background-color: #304268;
-  width: 100vw;
   /*height: 20.06rem;*/ }
 
 .footer-container {
@@ -402,8 +401,9 @@
     flex-direction: row-reverse;
     align-items: flex-start;
     justify-content: flex-end;
-    padding-left: 39px;
-    padding-right: 39px; }
+    width: 630px;
+    margin-left: auto;
+    margin-right: auto; }
   .footer-nav2 {
     order: -1;
     width: 210px;
@@ -419,5 +419,10 @@
   .copy-text {
     width: 210px;
     text-align: left; } }
+
+@media all and (min-width: 75rem) {
+  .footer-container {
+    margin-right: 370px;
+    margin-left: 370px; } }
 
 /*# sourceMappingURL=styles.css.map */
