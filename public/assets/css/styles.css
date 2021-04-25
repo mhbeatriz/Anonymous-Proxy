@@ -172,9 +172,30 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr; }
   .section2-title {
-    grid-column: span 3; }
+    grid-column: span 3;
+    font-size: 26px; }
+  .reasons-title {
+    font-size: 24px;
+    width: 210px;
+    height: 30px;
+    margin-bottom: 14px; }
+  .reasons-text {
+    font-size: 20px;
+    width: 212.3px;
+    height: 68px; }
   .section2-button {
     grid-column: 2; } }
+
+@media all and (min-width: 1200px) {
+  .section2-title {
+    font-size: 32px; }
+  .reasons-title {
+    width: 350px;
+    height: 30px;
+    margin-bottom: 14px; }
+  .reasons-text {
+    width: 353.8px;
+    height: 68px; } }
 
 .header {
   height: 100vh;
