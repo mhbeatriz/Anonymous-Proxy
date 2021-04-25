@@ -111,35 +111,40 @@
     font-size: 1.25rem;
   }
 }
-
 .section2 {
   background-color: $coloriceblue;
-  width: 100vw;
-  height: 39rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-}
-.section2-title {
-  font-family: $font-titles;
-  font-size: 1.5rem;
-  text-transform: capitalize;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  text-align: center;
+  padding-top: 30px;
 }
 
-.section2-article {
-  text-align: center;
-  font-size: 1.12rem;
+.section2-title {
+  font-size: 24px;
+  font-family: $font-titles;
+}
+.reasons-article {
+  height: 93px;
+  width: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+}
+.reasons-title {
+  font-family: $font-titles;
+  font-size: 18px;
   text-transform: lowercase;
 }
-.article-title::first-letter {
+.reasons-title::first-letter {
   text-transform: uppercase;
 }
-.article-text {
-  height: 3.94rem;
-  width: 11.25rem;
+.reasons-text {
+  font-family: $font-main;
+  font-size: 18px;
+  text-transform: lowercase;
 }
-.article-text::first-letter {
+.reasons-text::first-letter {
   text-transform: uppercase;
 }
 .section2-button {
@@ -151,6 +156,8 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 3.75rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 .button-text {
   color: $colorwhite;

@@ -1,0 +1,60 @@
+.section2 {
+  background-color: $coloriceblue;
+  width: 100vw;
+  height: 39rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.section2-title {
+  font-family: $font-titles;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+.section2-article {
+  text-align: center;
+  font-size: 1.12rem;
+  text-transform: lowercase;
+}
+.article-title::first-letter {
+  text-transform: uppercase;
+}
+.article-text {
+  height: 3.94rem;
+  width: 11.25rem;
+}
+.article-text::first-letter {
+  text-transform: uppercase;
+}
+.section2-button {
+  background-color: $colororange;
+  border-radius: 1.87rem;
+  width: 11.5rem;
+  height: 2.81rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3.75rem;
+}
+.button-text {
+  color: $colorwhite;
+  text-transform: lowercase;
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+.button-text::first-letter {
+  text-transform: uppercase;
+}
+.button-text:hover {
+  color: $colorblue;
+  font-size: 1.56rem;
+  transition: color ease 2s, font-size 2s;
+}
+
+.button-text:active {
+  color: $colorblue;
+  font-size: 1.56rem;
+  transition: color ease 2s, font-size 2s;
+}

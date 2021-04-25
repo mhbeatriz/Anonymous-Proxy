@@ -107,18 +107,6 @@
     width: 22.5rem;
     height: 2rem;
   }
-  .header-button {
-    width: 3.12rem;
-    height: 3.12rem;
-    background-color: $colorwhite;
-    border-radius: 1.87rem;
-    margin-bottom: 2.81rem;
-    margin-top: 3.31rem;
-    box-shadow: 0.12rem 0.12rem 0.31rem $colordarkgrey;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
 }
 @media all and (min-width: 75rem) {
   .header-title {

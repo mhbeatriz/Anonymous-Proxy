@@ -100,31 +100,37 @@
 
 .section2 {
   background-color: #eff9ff;
-  width: 100vw;
-  height: 39rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around; }
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  text-align: center;
+  padding-top: 30px; }
 
 .section2-title {
-  font-family: "Roboto Slab", serif;
-  font-size: 1.5rem;
-  text-transform: capitalize; }
+  font-size: 24px;
+  font-family: "Roboto Slab", serif; }
 
-.section2-article {
-  text-align: center;
-  font-size: 1.12rem;
+.reasons-article {
+  height: 93px;
+  width: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px; }
+
+.reasons-title {
+  font-family: "Roboto Slab", serif;
+  font-size: 18px;
   text-transform: lowercase; }
 
-.article-title::first-letter {
+.reasons-title::first-letter {
   text-transform: uppercase; }
 
-.article-text {
-  height: 3.94rem;
-  width: 11.25rem; }
+.reasons-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  text-transform: lowercase; }
 
-.article-text::first-letter {
+.reasons-text::first-letter {
   text-transform: uppercase; }
 
 .section2-button {
@@ -135,7 +141,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 3.75rem; }
+  margin-bottom: 3.75rem;
+  margin-left: auto;
+  margin-right: auto; }
 
 .button-text {
   color: white;
@@ -256,18 +264,7 @@
   .header-subtitle {
     font-size: 1.5rem;
     width: 22.5rem;
-    height: 2rem; }
-  .header-button {
-    width: 3.12rem;
-    height: 3.12rem;
-    background-color: white;
-    border-radius: 1.87rem;
-    margin-bottom: 2.81rem;
-    margin-top: 3.31rem;
-    box-shadow: 0.12rem 0.12rem 0.31rem #4a4a4a;
-    display: flex;
-    justify-content: center;
-    align-items: center; } }
+    height: 2rem; } }
 
 @media all and (min-width: 75rem) {
   .header-title {
