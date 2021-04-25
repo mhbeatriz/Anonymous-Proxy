@@ -20,10 +20,10 @@ En cuanto a la maquetación con HTML:
 Respecto a la maquetación con CSS/Sass:
 
 - Todo el código está perfectamente indentado.
-- He dividio el Sass en varios partials para que me resulte más cómodo y ordenado, y los he enlazado correctamente el fichero principal.
+- He dividio el Sass en varios partials para que me resulte más cómodo y ordenado, y los he enlazado correctamente al fichero principal.
 - He creado otro fichero a parte para las variables, en las cuales he añadido la paleta de colores y la tipografía que se pide para luego enlazarlas comodmente en cada clase.
-- La mayor parte de la página web esta maquetada con flex.
-- Con el objetivo de dotar de dinamismo a la página y hacerlo más interactiva he añadido algunas transiciones a los botones, los cuales, están enlazados tanto de forma relativa como absoluta.
+- La mayor parte de la página web esta maquetada con flex y la section 2 del main con grid.
+- Con el objetivo de dotar de dinamismo a la página y hacerlo más interactiva he añadido algunas transiciones y animaciones a los botones, los cuales, están enlazados a rutas relativas y absolutas.
 
 # Agradecimientos 🥰
 
