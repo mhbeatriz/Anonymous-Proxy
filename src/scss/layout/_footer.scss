@@ -1,7 +1,5 @@
 .footer {
   background-color: $colordarkblue;
-
-  /*height: 20.06rem;*/
 }
 
 .footer-container {
@@ -16,9 +14,6 @@
     flex-direction: row-reverse;
     align-items: flex-start;
     justify-content: flex-end;
-    // border: solid 2px red;
-    // padding-left: 39px;
-    // padding-right: 39px;
     width: 39.37rem;
     margin-left: auto;
     margin-right: auto;
@@ -29,8 +24,6 @@
   }
 }
 .footer-nav1 {
-  // border: 2px red solid;
-  /*margin-top: 60px;*/
   text-align: center;
   margin-bottom: 1.87rem;
   @media all and(min-width:48rem) {
@@ -57,13 +50,8 @@
     transform: scale(2);
   }
 }
-// .footer-nav-link:hover {
-//   color: $colororange;
-//   transform: scale(2);
-// }
 
 .footer-nav2 {
-  // border: 2px red solid;
   width: 9.19rem;
   height: 5.62rem;
   text-align: center;
@@ -79,7 +67,6 @@
   line-height: 1.88;
 }
 .copy {
-  // border: 2px red solid;
   color: $colorwhite;
   font-size: 0.87rem;
   text-align: center;
@@ -91,7 +78,7 @@
 .copy-icon {
   padding-bottom: 0.94rem;
   @media all and (min-width: 48rem) {
-    width: 210px;
+    width: 13.12rem;
     text-align: left;
   }
 }
@@ -102,16 +89,6 @@
     text-align: left;
   }
 }
-
-// .copy-icon {
-//   width: 4.81rem;
-//   height: 1.87rem;
-// }
-
-// .copy-text {
-//   width: 18.12rem;
-//   height: 1.87rem;
-// }
 
 .footer-button {
   background-color: $colorwhite;
@@ -138,7 +115,6 @@
     transform: none;
   }
 }
-
 .footer-button-top {
   display: block;
   width: 1.28rem;
@@ -148,11 +124,6 @@
   animation: latidos 0.5s infinite;
   transform-origin: center;
 }
-
-// .footer-button-top:hover {
-//   transform: scale(2);
-// }
-
 @keyframes latidos {
   from {
     transform: none;
@@ -173,36 +144,3 @@
   animation: latidos 0.5s infinite;
   transform-origin: center;
 }
-// @media all and (min-width: 48rem) {
-//   .footer-container {
-//     display: flex;
-//     flex-direction: row-reverse;
-//     align-items: flex-start;
-//     justify-content: flex-end;
-//     // border: solid 2px red;
-//     // padding-left: 39px;
-//     // padding-right: 39px;
-//     width: 39.37rem;
-//     margin-left: auto;
-//     margin-right: auto;
-//   }
-// .footer-nav2 {
-//   order: -1;
-//   width: 13.12rem;
-//   text-align: left;
-// }
-//   .footer-nav1 {
-//     width: 13.12rem;
-//     text-align: left;
-//     margin-left: 1.87rem;
-//     margin-right: 1.87rem;
-//   }
-//   .copy-icon {
-//     width: 210px;
-//     text-align: left;
-//   }
-//   .copy-text {
-//     width: 13.12rem;
-//     text-align: left;
-//   }
-// }

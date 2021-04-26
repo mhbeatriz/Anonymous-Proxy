@@ -1,10 +1,7 @@
 .section1 {
-  // height: 23.5rem;
   display: flex;
   flex-direction: column;
-  // justify-content: space-around;
   background-color: $colorwhite;
-  // margin: 1.87rem 0.94rem 2.81rem;
   padding: 1.87rem 0.94rem 2.81rem;
   @media all and (min-width: 48rem) {
     margin-left: 2.44rem;
@@ -25,7 +22,6 @@
   font-size: 0.87rem;
   font-family: $font-main;
   text-transform: capitalize;
-  // border: black solid 2px;
   height: 1.87rem;
   line-height: 2.14;
   @media all and (min-width: 48rem) {
@@ -41,14 +37,12 @@
   font-size: 1.5rem;
   font-family: $font-titles;
   text-align: left;
-  // border: solid 1px black;
   width: 18.12rem;
   height: 3.74rem;
   margin-bottom: 0.94rem;
   @media all and (min-width: 48rem) {
     width: 43.12rem;
     font-size: 1.62rem;
-    // margin-bottom: 30px;
   }
   @media all and (min-width: 75rem) {
     width: 45.62rem;
@@ -56,15 +50,12 @@
   }
 }
 .section1-text {
-  // width: 18.12rem;
   height: 7.5rem;
-  // border: black solid 2px;
   font-size: 1.12rem;
   font-family: $font-main;
   text-align: left;
   line-height: 1.6;
   color: #4a4a4a;
-  // margin-bottom: 30px;
   padding-bottom: 0;
   @media all and (min-width: 48rem) {
     width: 43.12rem;
@@ -77,13 +68,11 @@
 }
 
 .button-go {
-  border: solid 2px $colororange;
+  border: solid 0.13rem $colororange;
   width: 4.75rem;
   height: 2.81rem;
   border-radius: 1.87rem;
   padding: 0 1.56rem 0 1.62rem;
-  // margin-bottom: 45px;
-  // margin-top: 30px;
 }
 .go {
   color: $colororange;
@@ -105,59 +94,7 @@
     transition: color ease 2s, text-decoration ease 2s;
   }
 }
-// .go:hover {
-//   color: $colordarkblue;
-//   text-decoration: underline;
-//   transition: color ease 2s, text-decoration ease 2s;
-// }
 
-// .go:active {
-//   color: $colordarkblue;
-//   text-decoration: underline;
-//   transition: color ease 2s, text-decoration ease 2s;
-// }
-
-// @media all and (min-width: 48rem) {
-//   .section1 {
-//     margin-left: 2.44rem;
-//     margin-right: 2.44rem;
-//     margin-top: 1.87rem;
-//     margin-bottom: 3.75rem;
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: space-evenly;
-//   }
-//   .section1-subtitle {
-//     width: 13.5rem;
-//   }
-//   .section1-title {
-//     width: 43.12rem;
-//     font-size: 1.62rem;
-//     // margin-bottom: 30px;
-//   }
-//   .section1-text {
-//     width: 43.12rem;
-//     font-size: 1.25rem;
-//   }
-// }
-// @media all and(min-width:75rem) {
-//   .section1 {
-//     margin-left: 17.19rem;
-//     margin-right: 17.19rem;
-//   }
-//   .section1-subtitle {
-//     font-size: 1rem;
-//     width: 22.5rem;
-//   }
-//   .section1-title {
-//     width: 45.62rem;
-//     font-size: 2rem;
-//   }
-//   .section1-text {
-//     width: 45.62rem;
-//     font-size: 1.25rem;
-//   }
-// }
 .section2 {
   background-color: $coloriceblue;
   display: grid;
@@ -185,8 +122,6 @@
 }
 
 .reasons-article {
-  // height: 93px;
-  // width: 180px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -267,42 +202,3 @@
     transition: color ease 2s, font-size 2s;
   }
 }
-
-// @media all and (min-width: 48rem) {
-//   .section2 {
-//     grid-template-columns: 1fr 1fr 1fr;
-//     grid-template-rows: 1fr 1fr 1fr;
-//   }
-//   .section2-title {
-//     grid-column: span 3;
-//     font-size: 1.62rem;
-//   }
-//   .reasons-title {
-//     font-size: 1.5rem;
-//     width: 13.12rem;
-//     height: 1.87rem;
-//     margin-bottom: 0.87rem;
-//   }
-//   .reasons-text {
-//     font-size: 1.25rem;
-//     width: 13.27rem;
-//     height: 4.25rem;
-//   }
-//   .section2-button {
-//     grid-column: 2;
-//   }
-// }
-// @media all and (min-width: 75rem) {
-//   .section2-title {
-//     font-size: 2rem;
-//   }
-//   .reasons-title {
-//     width: 21.87rem;
-//     height: 1.87rem;
-//     margin-bottom: 0.87rem;
-//   }
-//   .reasons-text {
-//     width: 22.11rem;
-//     height: 4.25rem;
-//   }
-// }
