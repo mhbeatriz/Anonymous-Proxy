@@ -11,12 +11,34 @@
   flex-direction: column;
   align-items: center;
   font-family: $font-main;
+  @media all and (min-width: 48rem) {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: flex-end;
+    // border: solid 2px red;
+    // padding-left: 39px;
+    // padding-right: 39px;
+    width: 39.37rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @media all and(min-width:75rem) {
+    margin-right: 23.12rem;
+    margin-left: 23.21rem;
+  }
 }
 .footer-nav1 {
   // border: 2px red solid;
   /*margin-top: 60px;*/
   text-align: center;
   margin-bottom: 1.87rem;
+  @media all and(min-width:48rem) {
+    width: 13.12rem;
+    text-align: left;
+    margin-left: 1.87rem;
+    margin-right: 1.87rem;
+  }
 }
 
 .footer-nav1-list {
@@ -30,11 +52,15 @@
   font-size: 1rem;
   text-transform: uppercase;
   line-height: 1.88;
+  &:hover {
+    color: $colororange;
+    transform: scale(2);
+  }
 }
-.footer-nav-link:hover {
-  color: $colororange;
-  transform: scale(2);
-}
+// .footer-nav-link:hover {
+//   color: $colororange;
+//   transform: scale(2);
+// }
 
 .footer-nav2 {
   // border: 2px red solid;
@@ -42,6 +68,11 @@
   height: 5.62rem;
   text-align: center;
   margin-bottom: 1.87rem;
+  @media all and (min-width: 48rem) {
+    order: -1;
+    width: 13.12rem;
+    text-align: left;
+  }
 }
 .footer-nav2-list {
   list-style-type: none;
@@ -59,7 +90,19 @@
 }
 .copy-icon {
   padding-bottom: 0.94rem;
+  @media all and (min-width: 48rem) {
+    width: 210px;
+    text-align: left;
+  }
 }
+
+.copy-text {
+  @media all and (min-width: 48rem) {
+    width: 13.12rem;
+    text-align: left;
+  }
+}
+
 // .copy-icon {
 //   width: 4.81rem;
 //   height: 1.87rem;
@@ -106,9 +149,9 @@
   transform-origin: center;
 }
 
-.footer-button-top:hover {
-  transform: scale(2);
-}
+// .footer-button-top:hover {
+//   transform: scale(2);
+// }
 
 @keyframes latidos {
   from {
@@ -130,42 +173,36 @@
   animation: latidos 0.5s infinite;
   transform-origin: center;
 }
-@media all and (min-width: 48rem) {
-  .footer-container {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: flex-start;
-    justify-content: flex-end;
-    // border: solid 2px red;
-    // padding-left: 39px;
-    // padding-right: 39px;
-    width: 39.37rem;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .footer-nav2 {
-    order: -1;
-    width: 13.12rem;
-    text-align: left;
-  }
-  .footer-nav1 {
-    width: 13.12rem;
-    text-align: left;
-    margin-left: 1.87rem;
-    margin-right: 1.87rem;
-  }
-  .copy-icon {
-    width: 210px;
-    text-align: left;
-  }
-  .copy-text {
-    width: 13.12rem;
-    text-align: left;
-  }
-}
-@media all and(min-width:75rem) {
-  .footer-container {
-    margin-right: 23.12rem;
-    margin-left: 23.21rem;
-  }
-}
+// @media all and (min-width: 48rem) {
+//   .footer-container {
+//     display: flex;
+//     flex-direction: row-reverse;
+//     align-items: flex-start;
+//     justify-content: flex-end;
+//     // border: solid 2px red;
+//     // padding-left: 39px;
+//     // padding-right: 39px;
+//     width: 39.37rem;
+//     margin-left: auto;
+//     margin-right: auto;
+//   }
+// .footer-nav2 {
+//   order: -1;
+//   width: 13.12rem;
+//   text-align: left;
+// }
+//   .footer-nav1 {
+//     width: 13.12rem;
+//     text-align: left;
+//     margin-left: 1.87rem;
+//     margin-right: 1.87rem;
+//   }
+//   .copy-icon {
+//     width: 210px;
+//     text-align: left;
+//   }
+//   .copy-text {
+//     width: 13.12rem;
+//     text-align: left;
+//   }
+// }
