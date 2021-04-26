@@ -8,6 +8,19 @@
   flex-direction: column;
   background-color: white;
   padding: 1.87rem 0.94rem 2.81rem; }
+  @media all and (min-width: 48rem) {
+    .section1 {
+      margin-left: 2.44rem;
+      margin-right: 2.44rem;
+      margin-top: 1.87rem;
+      margin-bottom: 3.75rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly; } }
+  @media all and (min-width: 75rem) {
+    .section1 {
+      margin-left: 17.19rem;
+      margin-right: 17.19rem; } }
 
 .section1-subtitle {
   color: #8ccbea;
@@ -16,6 +29,13 @@
   text-transform: capitalize;
   height: 1.87rem;
   line-height: 2.14; }
+  @media all and (min-width: 48rem) {
+    .section1-subtitle {
+      width: 13.5rem; } }
+  @media all and (min-width: 75rem) {
+    .section1-subtitle {
+      font-size: 1rem;
+      width: 22.5rem; } }
 
 .section1-title {
   text-transform: capitalize;
@@ -25,6 +45,14 @@
   width: 18.12rem;
   height: 3.74rem;
   margin-bottom: 0.94rem; }
+  @media all and (min-width: 48rem) {
+    .section1-title {
+      width: 43.12rem;
+      font-size: 1.62rem; } }
+  @media all and (min-width: 75rem) {
+    .section1-title {
+      width: 45.62rem;
+      font-size: 2rem; } }
 
 .section1-text {
   height: 7.5rem;
@@ -34,6 +62,14 @@
   line-height: 1.6;
   color: #4a4a4a;
   padding-bottom: 0; }
+  @media all and (min-width: 48rem) {
+    .section1-text {
+      width: 43.12rem;
+      font-size: 1.25rem; } }
+  @media all and (min-width: 75rem) {
+    .section1-text {
+      width: 45.62rem;
+      font-size: 1.25rem; } }
 
 .button-go {
   border: solid 2px #f26002;
@@ -51,52 +87,18 @@
   text-transform: capitalize;
   line-height: 2;
   text-decoration: none; }
-
-.go:hover {
-  color: #304268;
-  text-decoration: underline;
-  transition: color ease 2s, -webkit-text-decoration ease 2s;
-  transition: color ease 2s, text-decoration ease 2s;
-  transition: color ease 2s, text-decoration ease 2s, -webkit-text-decoration ease 2s; }
-
-.go:active {
-  color: #304268;
-  text-decoration: underline;
-  transition: color ease 2s, -webkit-text-decoration ease 2s;
-  transition: color ease 2s, text-decoration ease 2s;
-  transition: color ease 2s, text-decoration ease 2s, -webkit-text-decoration ease 2s; }
-
-@media all and (min-width: 48rem) {
-  .section1 {
-    margin-left: 2.44rem;
-    margin-right: 2.44rem;
-    margin-top: 1.87rem;
-    margin-bottom: 3.75rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly; }
-  .section1-subtitle {
-    width: 13.5rem; }
-  .section1-title {
-    width: 43.12rem;
-    font-size: 1.62rem; }
-  .section1-text {
-    width: 43.12rem;
-    font-size: 1.25rem; } }
-
-@media all and (min-width: 75rem) {
-  .section1 {
-    margin-left: 17.19rem;
-    margin-right: 17.19rem; }
-  .section1-subtitle {
-    font-size: 1rem;
-    width: 22.5rem; }
-  .section1-title {
-    width: 45.62rem;
-    font-size: 2rem; }
-  .section1-text {
-    width: 45.62rem;
-    font-size: 1.25rem; } }
+  .go:hover {
+    color: #304268;
+    text-decoration: underline;
+    transition: color ease 2s, -webkit-text-decoration ease 2s;
+    transition: color ease 2s, text-decoration ease 2s;
+    transition: color ease 2s, text-decoration ease 2s, -webkit-text-decoration ease 2s; }
+  .go:active {
+    color: #304268;
+    text-decoration: underline;
+    transition: color ease 2s, -webkit-text-decoration ease 2s;
+    transition: color ease 2s, text-decoration ease 2s;
+    transition: color ease 2s, text-decoration ease 2s, -webkit-text-decoration ease 2s; }
 
 .section2 {
   background-color: #eff9ff;
@@ -104,12 +106,23 @@
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   text-align: center; }
+  @media all and (min-width: 48rem) {
+    .section2 {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr; } }
 
 .section2-title {
   font-size: 1.5rem;
   font-family: "Roboto Slab", serif;
   margin: auto;
   text-transform: capitalize; }
+  @media all and (min-width: 48rem) {
+    .section2-title {
+      grid-column: span 3;
+      font-size: 1.62rem; } }
+  @media all and (min-width: 75rem) {
+    .section2-title {
+      font-size: 2rem; } }
 
 .reasons-article {
   margin-left: auto;
@@ -121,9 +134,19 @@
   text-transform: lowercase;
   width: 11.5rem;
   height: 1.87rem; }
-
-.reasons-title::first-letter {
-  text-transform: uppercase; }
+  .reasons-title::first-letter {
+    text-transform: uppercase; }
+  @media all and (min-width: 48rem) {
+    .reasons-title {
+      font-size: 1.5rem;
+      width: 13.12rem;
+      height: 1.87rem;
+      margin-bottom: 0.87rem; } }
+  @media all and (min-width: 75rem) {
+    .reasons-title {
+      width: 21.87rem;
+      height: 1.87rem;
+      margin-bottom: 0.87rem; } }
 
 .reasons-text {
   font-family: "Roboto", sans-serif;
@@ -132,9 +155,17 @@
   width: 11.25rem;
   height: 3.94rem;
   margin-bottom: 2.81rem; }
-
-.reasons-text::first-letter {
-  text-transform: uppercase; }
+  .reasons-text::first-letter {
+    text-transform: uppercase; }
+  @media all and (min-width: 48rem) {
+    .reasons-text {
+      font-size: 1.25rem;
+      width: 13.27rem;
+      height: 4.25rem; } }
+  @media all and (min-width: 75rem) {
+    .reasons-text {
+      width: 22.11rem;
+      height: 4.25rem; } }
 
 .section2-button {
   background-color: #f26002;
@@ -147,55 +178,25 @@
   margin-bottom: 3.75rem;
   margin-left: auto;
   margin-right: auto; }
+  @media all and (min-width: 48rem) {
+    .section2-button {
+      grid-column: 2; } }
 
 .button-text {
   color: white;
   text-transform: lowercase;
   font-size: 1.25rem;
   text-decoration: none; }
-
-.button-text::first-letter {
-  text-transform: uppercase; }
-
-.button-text:hover {
-  color: #0271bc;
-  font-size: 1.56rem;
-  transition: color ease 2s, font-size 2s; }
-
-.button-text:active {
-  color: #0271bc;
-  font-size: 1.56rem;
-  transition: color ease 2s, font-size 2s; }
-
-@media all and (min-width: 48rem) {
-  .section2 {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr; }
-  .section2-title {
-    grid-column: span 3;
-    font-size: 1.62rem; }
-  .reasons-title {
-    font-size: 1.5rem;
-    width: 13.12rem;
-    height: 1.87rem;
-    margin-bottom: 0.87rem; }
-  .reasons-text {
-    font-size: 1.25rem;
-    width: 13.27rem;
-    height: 4.25rem; }
-  .section2-button {
-    grid-column: 2; } }
-
-@media all and (min-width: 75rem) {
-  .section2-title {
-    font-size: 2rem; }
-  .reasons-title {
-    width: 21.87rem;
-    height: 1.87rem;
-    margin-bottom: 0.87rem; }
-  .reasons-text {
-    width: 22.11rem;
-    height: 4.25rem; } }
+  .button-text::first-letter {
+    text-transform: uppercase; }
+  .button-text:hover {
+    color: #0271bc;
+    font-size: 1.56rem;
+    transition: color ease 2s, font-size 2s; }
+  .button-text:active {
+    color: #0271bc;
+    font-size: 1.56rem;
+    transition: color ease 2s, font-size 2s; }
 
 .header {
   height: 100vh;
