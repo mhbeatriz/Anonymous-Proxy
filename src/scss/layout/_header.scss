@@ -25,20 +25,34 @@
   height: 0.87rem;
   background-image: url(../images/ico-menu.svg);
   background-size: contain;
+  &:hover {
+    transform: scale(2);
+    transition: transform ease 1s;
+  }
+  &:active {
+    transform: scale(2);
+    transition: transform ease 1s;
+  }
 }
-.header-menu-icon:hover {
-  transform: scale(2);
-  transition: transform ease 1s;
-}
+// .header-menu-icon:hover {
+//   transform: scale(2);
+//   transition: transform ease 1s;
+// }
 
-.header-menu-icon:active {
-  transform: scale(2);
-  transition: transform ease 1s;
-}
+// .header-menu-icon:active {
+//   transform: scale(2);
+//   transition: transform ease 1s;
+// }
+
 .header-text {
   color: $colorwhite;
   /*border: solid blue 2px;*/
   margin-top: 17.75rem;
+  @media all and (min-width: 48rem) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .header-title {
@@ -49,6 +63,18 @@
   text-align: center;
   font-size: 2.62rem;
   font-family: $font-titles;
+  @media all and (min-width: 48rem) {
+    font-size: 5rem;
+    text-align: center;
+    width: 43.12rem;
+    height: 13.25rem;
+  }
+  @media all and (min-width: 75rem) {
+    font-size: 6.25rem;
+    text-align: center;
+    width: 45.62rem;
+    height: 16.5rem;
+  }
 }
 .header-subtitle {
   text-align: center;
@@ -57,10 +83,23 @@
   margin-top: 0.62rem;
   /*border: solid 2px white;*/
   text-transform: lowercase;
+  &::first-letter {
+    text-transform: uppercase;
+  }
+  @media all and (min-width: 48rem) {
+    font-size: 1.5rem;
+    width: 22.5rem;
+    height: 2rem;
+  }
+  @media all and (min-width: 75rem) {
+    font-size: 1.5rem;
+    width: 45.62rem;
+    height: 2rem;
+  }
 }
-.header-subtitle::first-letter {
-  text-transform: uppercase;
-}
+// .header-subtitle::first-letter {
+//   text-transform: uppercase;
+// }
 
 .header-button {
   width: 3.12rem;
@@ -79,45 +118,53 @@
   height: 0.73rem;
   background-image: url(../images/ico-scroll-down.svg);
   background-size: contain;
+  &:hover {
+    transform: scale(2);
+    transition: transform ease 1s;
+  }
+  &:active {
+    transform: scale(2);
+    transition: transform ease 1s;
+  }
 }
-.button-icon:hover {
-  transform: scale(2);
-  transition: transform ease 1s;
-}
+// .button-icon:hover {
+//   transform: scale(2);
+//   transition: transform ease 1s;
+// }
 
-.button-icon:active {
-  transform: scale(2);
-  transition: transform ease 1s;
-}
+// .button-icon:active {
+//   transform: scale(2);
+//   transition: transform ease 1s;
+// }
 
-@media all and (min-width: 48rem) {
-  .header-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .header-title {
-    font-size: 5rem;
-    text-align: center;
-    width: 43.12rem;
-    height: 13.25rem;
-  }
-  .header-subtitle {
-    font-size: 1.5rem;
-    width: 22.5rem;
-    height: 2rem;
-  }
-}
-@media all and (min-width: 75rem) {
-  .header-title {
-    font-size: 6.25rem;
-    text-align: center;
-    width: 45.62rem;
-    height: 16.5rem;
-  }
-  .header-subtitle {
-    font-size: 1.5rem;
-    width: 45.62rem;
-    height: 2rem;
-  }
-}
+// @media all and (min-width: 48rem) {
+//   .header-text {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//   }
+//   .header-title {
+//     font-size: 5rem;
+//     text-align: center;
+//     width: 43.12rem;
+//     height: 13.25rem;
+//   }
+//   .header-subtitle {
+//     font-size: 1.5rem;
+//     width: 22.5rem;
+//     height: 2rem;
+//   }
+// }
+// @media all and (min-width: 75rem) {
+//   .header-title {
+//     font-size: 6.25rem;
+//     text-align: center;
+//     width: 45.62rem;
+//     height: 16.5rem;
+//   }
+//   .header-subtitle {
+//     font-size: 1.5rem;
+//     width: 45.62rem;
+//     height: 2rem;
+//   }
+// }

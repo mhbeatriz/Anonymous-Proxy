@@ -224,19 +224,22 @@
   height: 0.87rem;
   background-image: url(../images/ico-menu.svg);
   background-size: contain; }
-
-.header-menu-icon:hover {
-  transform: scale(2);
-  transition: transform ease 1s; }
-
-.header-menu-icon:active {
-  transform: scale(2);
-  transition: transform ease 1s; }
+  .header-menu-icon:hover {
+    transform: scale(2);
+    transition: transform ease 1s; }
+  .header-menu-icon:active {
+    transform: scale(2);
+    transition: transform ease 1s; }
 
 .header-text {
   color: white;
   /*border: solid blue 2px;*/
   margin-top: 17.75rem; }
+  @media all and (min-width: 48rem) {
+    .header-text {
+      display: flex;
+      flex-direction: column;
+      align-items: center; } }
 
 .header-title {
   text-transform: uppercase;
@@ -246,6 +249,18 @@
   text-align: center;
   font-size: 2.62rem;
   font-family: "Roboto Slab", serif; }
+  @media all and (min-width: 48rem) {
+    .header-title {
+      font-size: 5rem;
+      text-align: center;
+      width: 43.12rem;
+      height: 13.25rem; } }
+  @media all and (min-width: 75rem) {
+    .header-title {
+      font-size: 6.25rem;
+      text-align: center;
+      width: 45.62rem;
+      height: 16.5rem; } }
 
 .header-subtitle {
   text-align: center;
@@ -254,9 +269,18 @@
   margin-top: 0.62rem;
   /*border: solid 2px white;*/
   text-transform: lowercase; }
-
-.header-subtitle::first-letter {
-  text-transform: uppercase; }
+  .header-subtitle::first-letter {
+    text-transform: uppercase; }
+  @media all and (min-width: 48rem) {
+    .header-subtitle {
+      font-size: 1.5rem;
+      width: 22.5rem;
+      height: 2rem; } }
+  @media all and (min-width: 75rem) {
+    .header-subtitle {
+      font-size: 1.5rem;
+      width: 45.62rem;
+      height: 2rem; } }
 
 .header-button {
   width: 3.12rem;
@@ -275,40 +299,12 @@
   height: 0.73rem;
   background-image: url(../images/ico-scroll-down.svg);
   background-size: contain; }
-
-.button-icon:hover {
-  transform: scale(2);
-  transition: transform ease 1s; }
-
-.button-icon:active {
-  transform: scale(2);
-  transition: transform ease 1s; }
-
-@media all and (min-width: 48rem) {
-  .header-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-  .header-title {
-    font-size: 5rem;
-    text-align: center;
-    width: 43.12rem;
-    height: 13.25rem; }
-  .header-subtitle {
-    font-size: 1.5rem;
-    width: 22.5rem;
-    height: 2rem; } }
-
-@media all and (min-width: 75rem) {
-  .header-title {
-    font-size: 6.25rem;
-    text-align: center;
-    width: 45.62rem;
-    height: 16.5rem; }
-  .header-subtitle {
-    font-size: 1.5rem;
-    width: 45.62rem;
-    height: 2rem; } }
+  .button-icon:hover {
+    transform: scale(2);
+    transition: transform ease 1s; }
+  .button-icon:active {
+    transform: scale(2);
+    transition: transform ease 1s; }
 
 .footer {
   background-color: #304268;
