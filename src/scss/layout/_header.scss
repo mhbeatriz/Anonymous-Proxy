@@ -11,8 +11,8 @@
 }
 .header-menu {
   background-color: $colorblue;
-  width: 2.75rem;
-  height: 2.75rem;
+  width: 44px;
+  height: 44px;
   position: fixed;
   top: 0;
   left: 0;
@@ -21,8 +21,8 @@
   align-items: center;
 }
 .header-menu-icon {
-  width: 1rem;
-  height: 0.87rem;
+  width: 16px;
+  height: 14px;
   background-image: url(../images/ico-menu.svg);
   background-size: contain;
   &:hover {
@@ -36,8 +36,8 @@
 }
 .header-text {
   color: $colorwhite;
-  margin-top: 17.75rem;
-  @media all and (min-width: 48rem) {
+  margin-top: 284px;
+  @media all and (min-width: 768px) {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,60 +46,60 @@
 
 .header-title {
   text-transform: uppercase;
-  width: 18.12rem;
-  height: 6.87rem;
+  width: 290px;
+  height: 110px;
   text-align: center;
-  font-size: 2.62rem;
+  font-size: 42px;
   font-family: $font-titles;
-  @media all and (min-width: 48rem) {
-    font-size: 5rem;
+  @media all and (min-width: 768px) {
+    font-size: 80px;
     text-align: center;
-    width: 43.12rem;
-    height: 13.25rem;
+    width: 690px;
+    height: 212px;
   }
-  @media all and (min-width: 75rem) {
-    font-size: 6.25rem;
+  @media all and (min-width: 1200px) {
+    font-size: 100px;
     text-align: center;
-    width: 45.62rem;
-    height: 16.5rem;
+    width: 730px;
+    height: 275px;
   }
 }
 .header-subtitle {
   text-align: center;
-  font-size: 1rem;
+  font-size: 16px;
   font-family: $font-main;
-  margin-top: 0.62rem;
+  margin-top: 10px;
   text-transform: lowercase;
   &::first-letter {
     text-transform: uppercase;
   }
-  @media all and (min-width: 48rem) {
-    font-size: 1.5rem;
-    width: 22.5rem;
-    height: 2rem;
+  @media all and (min-width: 768px) {
+    font-size: 24px;
+    width: 360px;
+    height: 32px;
   }
-  @media all and (min-width: 75rem) {
-    font-size: 1.5rem;
-    width: 45.62rem;
-    height: 2rem;
+  @media all and (min-width: 1200px) {
+    font-size: 24px;
+    width: 730px;
+    height: 32px;
   }
 }
 .header-button {
-  width: 3.12rem;
-  height: 3.12rem;
+  width: 50px;
+  height: 50px;
   background-color: $colorwhite;
-  border-radius: 1.87rem;
-  margin-bottom: 2.81rem;
-  margin-top: 3.31rem;
-  box-shadow: 0.12rem 0.12rem 0.31rem $colordarkgrey;
+  border-radius: 30px;
+  margin-bottom: 45px;
+  margin-top: 30px;
+  box-shadow: 2px 2px 5px $colordarkgrey;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1.12rem 0.75rem 0.96rem 0.81rem;
+  padding: 18px 12px 15.3px 13px;
 }
 .button-icon {
-  width: 1.25rem;
-  height: 0.73rem;
+  width: 20px;
+  height: 11.7px;
   background-image: url(../images/ico-scroll-down.svg);
   // background-size: contain;
   background-repeat: no-repeat;
