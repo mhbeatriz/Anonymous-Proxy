@@ -43,6 +43,7 @@
   @media all and (min-width: 768px) {
     width: 690px;
     font-size: 26px;
+    order: -1;
   }
   @media all and (min-width: 1200px) {
     width: 730px;
@@ -57,6 +58,7 @@
   line-height: 1.6;
   color: $colordarkgrey;
   padding-bottom: 0;
+  margin-bottom: 20px;
   @media all and (min-width: 768px) {
     width: 690px;
     font-size: 20px;
@@ -68,14 +70,15 @@
 }
 
 .button-go {
-  border: solid 2px $colororange;
+  // border: solid 2px $colororange;
+  background-color: $colororange;
   width: 76px;
   height: 45px;
   border-radius: 30px;
   padding: 0 25px 0 26px;
 }
 .go {
-  color: $colororange;
+  color: $colorwhite;
   text-transform: lowercase;
   font-size: 20px;
   font-family: $font-main;
@@ -85,8 +88,10 @@
   text-decoration: none;
   &:hover {
     color: $colordarkblue;
-    text-decoration: underline;
+    // text-decoration: underline;
     transition: color ease 2s, text-decoration ease 2s;
+    font-size: 25px;
+    transition: color ease 2s, font-size 2s;
   }
   &:active {
     color: $colordarkblue;
