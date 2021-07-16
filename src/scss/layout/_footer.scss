@@ -1,5 +1,5 @@
 .footer {
-  background-color: $colordarkblue;
+  background-color: #454545;
 }
 
 .footer-container {
@@ -46,7 +46,7 @@
   text-transform: uppercase;
   line-height: 1.88;
   &:hover {
-    color: $colororange;
+    color: red;
     transform: scale(2);
   }
 }

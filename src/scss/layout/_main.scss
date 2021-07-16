@@ -18,7 +18,7 @@
   }
 }
 .section1-subtitle {
-  color: $colorlightblue;
+  color: red;
   font-size: 14px;
   font-family: $font-main;
   text-transform: capitalize;
@@ -68,14 +68,14 @@
 }
 
 .button-go {
-  border: solid 2px $colororange;
+  border: solid 2px red;
   width: 76px;
   height: 45px;
   border-radius: 30px;
   padding: 0 25px 0 26px;
 }
 .go {
-  color: $colororange;
+  color: red;
   text-transform: lowercase;
   font-size: 20px;
   font-family: $font-main;
@@ -84,7 +84,7 @@
   line-height: 2;
   text-decoration: none;
   &:hover {
-    color: $colordarkblue;
+    color: grey;
     text-decoration: underline;
     transition: color ease 2s, text-decoration ease 2s;
   }
@@ -96,7 +96,7 @@
 }
 
 .section2 {
-  background-color: $coloriceblue;
+  background-color: lightgrey;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -169,7 +169,7 @@
 }
 
 .section2-button {
-  background-color: $colororange;
+  background-color: red;
   border-radius: 30px;
   width: 184px;
   height: 45px;
@@ -192,7 +192,7 @@
     text-transform: uppercase;
   }
   &:hover {
-    color: $colorblue;
+    color: black;
     font-size: 25px;
     transition: color ease 2s, font-size 2s;
   }

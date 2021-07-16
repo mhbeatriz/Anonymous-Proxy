@@ -23,7 +23,7 @@
       margin-right: 275px; } }
 
 .section1-subtitle {
-  color: #8ccbea;
+  color: red;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   text-transform: capitalize;
@@ -72,14 +72,14 @@
       font-size: 20px; } }
 
 .button-go {
-  border: solid 2px #f26002;
+  border: solid 2px red;
   width: 76px;
   height: 45px;
   border-radius: 30px;
   padding: 0 25px 0 26px; }
 
 .go {
-  color: #f26002;
+  color: red;
   text-transform: lowercase;
   font-size: 20px;
   font-family: "Roboto", sans-serif;
@@ -88,7 +88,7 @@
   line-height: 2;
   text-decoration: none; }
   .go:hover {
-    color: #304268;
+    color: grey;
     text-decoration: underline;
     transition: color ease 2s, -webkit-text-decoration ease 2s;
     transition: color ease 2s, text-decoration ease 2s;
@@ -101,7 +101,7 @@
     transition: color ease 2s, text-decoration ease 2s, -webkit-text-decoration ease 2s; }
 
 .section2 {
-  background-color: #eff9ff;
+  background-color: lightgrey;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -168,7 +168,7 @@
       height: 68px; } }
 
 .section2-button {
-  background-color: #f26002;
+  background-color: red;
   border-radius: 30px;
   width: 184px;
   height: 45px;
@@ -190,7 +190,7 @@
   .button-text::first-letter {
     text-transform: uppercase; }
   .button-text:hover {
-    color: #0271bc;
+    color: black;
     font-size: 25px;
     transition: color ease 2s, font-size 2s; }
   .button-text:active {
@@ -210,7 +210,7 @@
   align-items: center; }
 
 .header-menu {
-  background-color: #0271bc;
+  background-color: red;
   width: 44px;
   height: 44px;
   position: fixed;
@@ -266,6 +266,7 @@
   font-size: 16px;
   font-family: "Roboto", sans-serif;
   margin-top: 10px;
+  color: red;
   text-transform: lowercase; }
   .header-subtitle::first-letter {
     text-transform: uppercase; }
@@ -309,7 +310,7 @@
     transition: transform ease 1s; }
 
 .footer {
-  background-color: #304268; }
+  background-color: #454545; }
 
 .footer-container {
   height: 100%;
@@ -353,7 +354,7 @@
   text-transform: uppercase;
   line-height: 1.88; }
   .footer-nav-link:hover {
-    color: #f26002;
+    color: red;
     transform: scale(2); }
 
 .footer-nav2 {

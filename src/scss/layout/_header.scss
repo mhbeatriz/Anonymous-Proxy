@@ -10,7 +10,7 @@
   align-items: center;
 }
 .header-menu {
-  background-color: $colorblue;
+  background-color: red;
   width: 44px;
   height: 44px;
   position: fixed;
@@ -69,6 +69,7 @@
   font-size: 16px;
   font-family: $font-main;
   margin-top: 10px;
+  color: red;
   text-transform: lowercase;
   &::first-letter {
     text-transform: uppercase;
