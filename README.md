@@ -1,13 +1,9 @@
 
-# Mi primera página web 👩🏼‍💻
+# El Alma del Rock 🎸
 
-Esta es mi tercera semana en Adalab, y he de decir que me siento muy orgullosa de todo el aprendizaje que he adquirido en tan poco tiempo, a pesar de que tenga un montón de cosas por mejorar. Han sido unos días intensos, de mucho trabajo y esfuerzo, pero también de disfrute y aprendizaje.
+Se trata de una página web estática para poner a prueba mis conocimientos sobre maquetación. Y qué mejor manera que aprovechar esta práctica presentando mi canal de Youtube en el que subo videos de dibulgación musical. 
 
 # Descripción técnica 💻
-
-En esta evaluación he puesto a prueba todos mis conocimientos sobre el módulo 1 sobre maquetación con HTML y CSS.
-Antes de comenzar con la maquetación me he descargado y clonado el repositorio de GitHub Classroom, he añadido mi template del Starter Kit de Adalab y una vez creaado lo he publicado con el GitHub Pages. ¡Y ahora vamos a maquetar!
-Lo primero que he hecho ha sido leer bien el enunciado y anotar los puntos más relevantes, a continación he dibujado en papel y lápiz la estructura de la página y ¡empezamos con VS code!
 
 Por un lado:
 
@@ -26,8 +22,6 @@ Respecto a la maquetación con CSS/Sass:
 - La mayor parte de la página web esta maquetada con flex y la section 2 del main con grid.
 - Con el objetivo de dotar de dinamismo a la página y hacerlo más interactiva he añadido algunas transiciones y animaciones a los botones, los cuales, están enlazados a rutas relativas y absolutas.
 
-# Agradecimientos 🥰
-
-Agradezco a mis profesores Iván, Dayana y Miguel por todo el esfuerzo que han hecho por enseñarnos algo completamente nuevo para nosotras.
-
-http://beta.adalab.es/modulo-1-evaluacion-final-mhbeatriz/
+Espero que os guste 🤟🏻 
+Cualquier feeback será bienvenido. 
+¡Qué viva el rock'n'roll 🎸!
